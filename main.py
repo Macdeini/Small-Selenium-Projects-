@@ -2,7 +2,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 PATH = "C:\Program Files (x86)\chromedriver.exe"
-
+#yo
 
 def get_min_specs(game):
     driver = webdriver.Chrome(PATH)
